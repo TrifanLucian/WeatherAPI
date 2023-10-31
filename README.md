@@ -9,6 +9,7 @@ For students, the OpenWeatherApi provides current weather and forecasts and hist
 
 To generate the data set, I use the History API from the openweathermap platform, which provides historical hourly weather data for any location on the globe.
 The fields in the API response that are used to create the data set are:
+<pre>
 'dt'
 'main': {'temp',
         'feels_like',
@@ -23,3 +24,4 @@ The fields in the API response that are used to create the data set are:
           'main': 'Clear',
           'description',
            'icon'}]
+</pre>
