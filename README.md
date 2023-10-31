@@ -25,3 +25,10 @@ The fields in the API response that are used to create the data set are:
           'description',
            'icon'}]
 </pre>
+
+I will use the following libraries:
+-csv for writing query results in a csv file.
+-time for suspending execution between queries
+-datetime for transforming the UNIX-type calendar date into a standard one that can be read and interpreted by humans
+-PySpark for data set manipulation and processing
+-matplotlib for displaying a graph
